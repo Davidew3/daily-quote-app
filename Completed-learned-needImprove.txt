@@ -1,0 +1,26 @@
+7/18/2020
+
+In this assignment, I learned a number of new methods and sampling of certain code that I have not been introduced to before. 
+Key points
+
+*Node.js is phenomenal
+- I created my own web server where I was able to create a hello world function through my terminal. I think I can build further upon this server by figuring out how to make it accept not only my index.js files but also use as a live server for any programming I do. 
+- The server simply prints Hello world but I never thought I would be able to create a node.js server and that is awesome
+- I CREATED A WEBSCRAPER using Node.js AND puppeteer that was able to scrape quotes from another site and then pull them in as managable arrays. 
+
+*React-Bootstrap is crazy awesome. I completed the project as instructed but the way the requirements for the project made it difficult to incorporate the Bootstrap the way React-Bootstrap is intended. This is likely due to it being my very first project, but having to incorporate specific div id's did not help the bootstrap implementation. 
+- The ability to import components from bootstrap such as the card, button, and twitter icon was phenomenal. 
+- All the components can be stored in my own React library for future use that would allow me to not have to recreate the wheel.
+- Bootstrap was not that difficult after I learned that adding the div#'s allowed me to create a separate css for my app.css and index.css. Once I understood that part I was able to customize some of the components and the layout to my liking.
+- CREATE A UTILS.JS FILE for functions/components to store functions and components for future use. 
+
+*Improvements I need to make
+- I need a better understanding of async, await, fetch, setTimeOut and any other method that pulls data from another source to be used in this project. 
+Example: My webscraper could probably be built inside this project and update the quotes.js arrays itself. Instead, I built a webscraper and scraped the quotes to a quotes.js file into two arrays, one for the quote and one for the author.
+
+- I would like to add functionality to be able to copy and past the quote for anyone to access. 
+- Learn more about the final build where all the components will be rendered and how to make those be movable. 
+
+
+MEGA-DOWNER: I know this project passes the required tests of the FCC and get credit for 1 of the 5 capstones to the React certification; however, there is no way to easily move my project from VS to codepen as it is recommended in the method to submit the project. There has to be a better way to submit projects for this particular certification when you have so many index files separated by the various components needed. I will look into this later today to see if I can put all of the components on one single JS file and then export them to the final app. Maybe then I can actually submit the assignment. 
+

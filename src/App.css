@@ -1,0 +1,45 @@
+/* Existing CSS */
+.App {
+  text-align: center;
+}
+
+/* ... rest of your existing CSS ... */
+
+/* New CSS for QuoteCard and Button */
+.QuoteCard {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #aaa0c5;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.title {
+  font-size: x-large;
+}
+
+.QuoteCard-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5c74c5;
+  color: white;
+  cursor: pointer;
+  margin-left: 50px;
+}
+.QuoteCard-button:hover {
+  background-color: #788ac4;
+ 
+}
+
+.icon-large svg {
+  width: 50px;
+  height: 30px;
+  color: #043efd;
+}
+.icon-large svg:hover {
+  color: #446ae6;
+}
