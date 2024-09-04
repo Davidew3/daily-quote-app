@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/daily-quote-app/static/css/main.b7f16fed.css",
+    "main.js": "/daily-quote-app/static/js/main.e3c30def.js",
+    "static/js/453.d86a8bd5.chunk.js": "/daily-quote-app/static/js/453.d86a8bd5.chunk.js",
+    "index.html": "/daily-quote-app/index.html",
+    "main.b7f16fed.css.map": "/daily-quote-app/static/css/main.b7f16fed.css.map",
+    "main.e3c30def.js.map": "/daily-quote-app/static/js/main.e3c30def.js.map",
+    "453.d86a8bd5.chunk.js.map": "/daily-quote-app/static/js/453.d86a8bd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7f16fed.css",
+    "static/js/main.e3c30def.js"
+  ]
+}
