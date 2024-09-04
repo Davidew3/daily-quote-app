@@ -1,0 +1,77 @@
+/* Existing CSS */
+.App {
+  text-align: center;
+}
+@keyframes entry {
+  0% {
+      opacity: 0;
+      transform: translateX(50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+/* Initial CSS for QuoteCard and Button */
+.QuoteCard {
+  max-width: 40rem;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.card {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: white;
+  animation: entry 3s ease 0s 1 normal forwards;
+}
+.card.exit {
+  animation: exit 3s ease 0s 1 normal forwards;
+}
+@keyframes exit {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+}
+.title {
+  font-size: x-large;
+}
+
+.QuoteCard-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5c74c5;
+  color: white;
+  cursor: pointer;
+  margin-left: 50px;
+}
+.QuoteCard-button:hover {
+  outline: 2px solid white;
+  text-shadow: 5px 5px 10px #000000;
+}
+
+.icon-large svg {
+  float:left;
+  width: 50px;
+  height: 35px;
+  color: #043efd;
+}
+.icon-large svg:hover {
+  outline: 2px solid white;
+}
